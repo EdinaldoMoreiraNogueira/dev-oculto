@@ -40,7 +40,7 @@ export default function HomePageHeaders (){
     }
     const handleResponse = ({success, id, adminKey }) => {
         if(success) {
-            router.push(`/secrets/${id}?adminKey=${adminKey}`)
+            router.push(`/secret/${id}?adminKey=${adminKey}`)
         }
     }
 return (

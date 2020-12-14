@@ -6,7 +6,7 @@
       width: 100%;
       height: 100%;
       margin: 0 auto;
-      font-family:'Fira Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
       background-color: ${({theme})=> theme.colors.primaryLight}
       
     }

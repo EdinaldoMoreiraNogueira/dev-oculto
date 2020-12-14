@@ -8,6 +8,10 @@ background-size: cover;
 
 `;
 
-export default function GiftContainer({ children }){
-  return <Background>{ children }</Background>
+export default function GiftContainer({ children }) {
+  return
+  (
+    <Background>{children}</Background>
+
+  )
 }
