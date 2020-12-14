@@ -9,9 +9,7 @@ background-size: cover;
 `;
 
 export default function GiftContainer({ children }) {
-  return
-  (
-    <Background>{children}</Background>
+  return <Background>{children}</Background>
 
-  )
+  
 }

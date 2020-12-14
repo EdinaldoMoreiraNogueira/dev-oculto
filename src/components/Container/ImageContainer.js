@@ -9,7 +9,6 @@ background-size: cover;
 `;
 
 export default function ImageContainer({ children }){
-  return (
-   <Background>{ children }</Background>
-   )
+  return <Background>{ children }</Background>
+   
 }
